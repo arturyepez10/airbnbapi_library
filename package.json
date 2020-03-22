@@ -1,0 +1,28 @@
+{
+    "name": "airbnbapi_library",
+    "version": "1.0.0",
+    "description": "Unofficial library for AirBnB API. The users of this package will be able to get the API managed by promises handle by axios",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arturyepez10/airbnbapi_library.git"
+    },
+    "keywords": [
+        "airbnb"
+    ],
+    "author": "Arturo Yepez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arturyepez10/airbnbapi_library/issues"
+    },
+    "homepage": "https://github.com/arturyepez10/airbnbapi_library#readme",
+    "devDependencies": {
+
+    },
+    "dependencies": {
+        "axios": "^0.19.2"
+    }
+}
