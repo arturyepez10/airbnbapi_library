@@ -72,6 +72,5 @@ async function auth_verification(token, hostId) {
 
 module.exports = {
     login: login,
-    auth: auth,
     auth_verification: auth_verification
 }
