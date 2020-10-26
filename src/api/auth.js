@@ -68,9 +68,9 @@ function auth(token, hostId) {
         url: endpoint,
         headers: headers
     }).then( function(response) {
-        return Promise.resolve(response.code)
+        return Promise.resolve(response.status)
     }).catch( function(error) {
-        return Promise.reject(error.code)
+        return Promise.reject(error.response.status)
     });
 }
 
